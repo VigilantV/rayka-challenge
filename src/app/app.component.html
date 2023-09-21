@@ -1,1 +1,8 @@
-<p>hey!</p>
+<div *ngIf="showResults; else snackbar" class="rows">
+  <div *ngFor="let data of datas" id="datas">
+    <p>{{ data }}</p>
+  </div>
+</div>
+<ng-template #snackbar>
+  <app-snackbar id="snackbar"></app-snackbar>
+</ng-template>
