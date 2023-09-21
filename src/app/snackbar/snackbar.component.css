@@ -1,0 +1,5 @@
+::ng-deep .snackbar {
+  margin-top: 3vw !important;
+  --mdc-snackbar-container-color: rgb(228, 76, 5);
+  color: rgb(240, 252, 255);
+}
